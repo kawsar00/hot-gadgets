@@ -7,10 +7,10 @@
     border-radius: 10px;
     border: none;
     padding: 10px 20px;
-    transition: all .3s ease;
+    transition: background-color .3s ease-out;
 }
 .buy-now-button:hover{
-    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+    background-color: orange;
     
 }
 .para-color{
