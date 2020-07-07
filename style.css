@@ -1,14 +1,17 @@
 .container{
     margin-bottom: 100px;
 }
-
-
 .buy-now-button{
     background-color: black;
     color: #fff;
     border-radius: 10px;
     border: none;
     padding: 10px 20px;
+    transition: all .3s ease;
+}
+.buy-now-button:hover{
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+    
 }
 .para-color{
     color: gray;
@@ -70,16 +73,33 @@
 }
 .catagories h6{
     text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
 }
-.catagories .pale-order{
+.box{
+    width: 230px;
+    box-shadow: 2px 5px 20px #eaeaea;
+    padding: 50px 40px;
+    background: #FFF;
+}
+.box img {
     width: 100%;
 }
-.box-img{
-    margin-right: 30px
-}   
-.beauty{
-    margin-bottom: 20px;
+.box.box1 {
+    margin-bottom: 30px;
+    border-radius: 0px 5px 0px 50px;
+}
+.box.box2 {
+    margin-bottom: 30px;
+    border-radius: 5px 0px 50px 0px;
+}
+.box.box3 {
+    margin-bottom: 30px;
+    border-radius: 5px 0px 50px 0px;
 }
 .pale-order img{
     width: 100%;
+    height: 90%;
 }
+/* .catagories section coding end here */
